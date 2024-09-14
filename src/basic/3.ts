@@ -7,10 +7,5 @@ const amount = (value: string | number): number => {
     return value;
   }
 };
-value = "My name is Anna";
-console.log(amount(value));
-value = 123;
-console.log(amount(value));
 
 let permision: "enable" | "disable";
-permision = "enable";
